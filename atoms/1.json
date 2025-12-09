@@ -1,0 +1,8 @@
+{
+  "id": "1",
+  "type": "DEFINITION",
+  "nickname": "יחס שקילות שומר-מידה",
+  "statement": "יהי $(X, \\mathcal{B}, \\mu)$ מרחב מידה, $R\\subseteq X\\times X$ יחס.\nנאמר ש-$R$ **שומר מידה** אם לכל פונקציה חלקית מדידה חח\"ע $\\phi: A\\to B$ שהיא חלקית לגרף של $R$, כלומר $(x,\\phi(x))\\in R$ לכל $x\\in A$, מתקיים $\\mu(A)=\\mu(B)$.",
+  "proof": "",
+  "tags": []
+}

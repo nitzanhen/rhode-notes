@@ -1,0 +1,32 @@
+{
+  "id": "1",
+  "name": "יחסי שקילות שומרי מידה",
+  "blocks": [
+    {
+      "id": "6ccdffc6-b18c-4c92-9cd4-9466f9b35e7c",
+      "type": "atom",
+      "atomId": "1",
+      "title": "הגדרה (יחס שקילות שומר-מידה)",
+      "includeProof": true
+    },
+    {
+      "id": "b025abf8-4e79-4ad9-91d3-98a35c2a590e",
+      "type": "prose",
+      "text": "הדוגמה הראשית ליחס שקילות שומר מידה מבחינתנו היא של חבורה $G$ שפועלת על $(X,\\mathcal{B},\\mu)$ באופן שומר מידה - במקרה הזה, היחס המוגדר ע\"י $\\set{(x,g.x)}_{x,g}$ הוא יחס שקילות שומר מידה."
+    },
+    {
+      "id": "62df97d9-24d5-42d6-a91d-44d1e9c4bca1",
+      "type": "atom",
+      "atomId": "2",
+      "title": "הגדרה (יחס היפר-סופי)",
+      "includeProof": true
+    },
+    {
+      "id": "788bc1d4-5fa0-48c9-82f1-ea8843aa83d5",
+      "type": "atom",
+      "atomId": "4",
+      "title": "משפט",
+      "includeProof": true
+    }
+  ]
+}

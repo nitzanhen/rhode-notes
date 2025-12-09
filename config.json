@@ -1,0 +1,344 @@
+{
+  "name": "things",
+  "options": {
+    "displayLanguage": "he",
+    "fontSize": {
+      "base": 14,
+      "display": 16
+    },
+    "editor": {
+      "insertEnDash": true,
+      "direction": "rtl"
+    },
+    "theme": "light"
+  },
+  "atomTypes": {
+    "groups": [
+      {
+        "name": "אטומים דקלרטיביים",
+        "types": [
+          {
+            "id": "DEFINITION",
+            "label": "הגדרה"
+          },
+          {
+            "id": "AXIOM",
+            "label": "אקסיומה"
+          }
+        ]
+      },
+      {
+        "name": "אטומים פרופוזיציונליים",
+        "types": [
+          {
+            "id": "LEMMA",
+            "label": "למה"
+          },
+          {
+            "id": "PROPOSITION",
+            "label": "טענה"
+          },
+          {
+            "id": "THEOREM",
+            "label": "משפט"
+          },
+          {
+            "id": "COROLLARY",
+            "label": "מסקנה"
+          }
+        ]
+      },
+      {
+        "name": "אטומים אחרים",
+        "types": [
+          {
+            "id": "REFERENCE",
+            "label": "אטום"
+          },
+          {
+            "id": "EXAMPLE",
+            "label": "דוגמה"
+          },
+          {
+            "id": "REMARK",
+            "label": "הערה"
+          }
+        ]
+      }
+    ],
+    "default": "REFERENCE"
+  },
+  "macros": [
+    {
+      "name": "\\NN",
+      "expansion": "\\mathbb{N}",
+      "description": "טבעיים",
+      "id": "613e7e99-80a4-4b75-b665-a1a523090105"
+    },
+    {
+      "name": "\\ZZ",
+      "expansion": "\\mathbb{Z}",
+      "description": "שלמים",
+      "id": "7f4144a2-89b2-4972-9001-2a6a9fa2c2a7"
+    },
+    {
+      "name": "\\RR",
+      "expansion": "\\mathbb{R}",
+      "description": "ממשיים",
+      "id": "ad2f920e-341c-4b5c-98b8-23ba52dca206"
+    },
+    {
+      "name": "\\CC",
+      "expansion": "\\mathbb{C}",
+      "description": "מרוכבים",
+      "id": "94542879-52e0-4a3d-a5ae-cb70889a2e61"
+    },
+    {
+      "name": "\\Span",
+      "expansion": "\\operatorname{Span}",
+      "description": "",
+      "id": "a63dff75-ecc4-4232-80e6-248d0af10073"
+    },
+    {
+      "name": "\\EE",
+      "expansion": "\\mathbb{E}",
+      "description": "תוחלת",
+      "id": "4130bb53-fe26-49d4-93b3-f73b296dad97"
+    },
+    {
+      "name": "\\ind",
+      "expansion": "\\mathbb{1}",
+      "description": "אינדיקטור",
+      "id": "82db0a89-ad5d-456a-9deb-8f242bde8ec9"
+    },
+    {
+      "name": "\\set",
+      "expansion": "\\left\\{#1\\right\\}",
+      "description": "קבוצה",
+      "id": "de7f0916-b44a-478b-aa6c-0a500a1817a5"
+    },
+    {
+      "name": "\\lt",
+      "expansion": "<",
+      "description": "",
+      "id": "653d7700-1654-43cd-ae1b-442ee2151e50"
+    },
+    {
+      "name": "\\gt",
+      "expansion": ">",
+      "description": "",
+      "id": "2ac80dbc-32ef-49cc-9bd3-d45e98470341"
+    },
+    {
+      "name": "\\PP",
+      "expansion": "\\mathbb{P}",
+      "description": "הסתברות",
+      "id": "fadc2b82-3f9d-4acb-a1c4-0c77c8da374f"
+    },
+    {
+      "name": "\\eeps",
+      "expansion": "\\varepsilon",
+      "description": "",
+      "id": "0afad05a-7c6e-486f-8bd3-27fb539475f4"
+    },
+    {
+      "name": "\\CO",
+      "expansion": "\\mathcal{O}",
+      "description": "",
+      "id": "6dd51621-1aa4-4bcb-84fa-c58ff81aa440"
+    },
+    {
+      "name": "\\Z",
+      "expansion": "\\undefined",
+      "description": "",
+      "id": "9307b674-18db-4d19-be90-bf32ccf51943"
+    },
+    {
+      "name": "\\SL",
+      "expansion": "\\operatorname{SL}",
+      "description": "",
+      "id": "8e12f90f-f3e7-4c92-9f61-a38b74c25cdf"
+    },
+    {
+      "name": "\\TT",
+      "expansion": "\\mathbb{T}",
+      "description": "",
+      "id": "eb38933f-2557-4a57-9536-e097cf289bf3"
+    },
+    {
+      "name": "\\CB",
+      "expansion": "\\mathcal{B}",
+      "description": "",
+      "id": "1d09e564-5c32-4994-8146-008896334618"
+    },
+    {
+      "name": "\\quot",
+      "expansion": "{^{#1}}/{_{#2}}",
+      "description": "מנה",
+      "id": "3af4c4b6-e8fa-45e9-b20d-38770b0b591e"
+    },
+    {
+      "name": "\\inner",
+      "expansion": "\\left\\langle{#1, #2}\\right\\rangle",
+      "description": "מ\"פ",
+      "id": "3b9d8a16-975f-456b-8316-9e2d0e3b33a6"
+    },
+    {
+      "name": "\\QQ",
+      "expansion": "\\mathbb{Q}",
+      "description": "",
+      "id": "289f81bf-f41d-4e12-a7db-6ff6862f43ff"
+    },
+    {
+      "name": "\\test",
+      "expansion": "\\mathbb{#1, #2, #3}",
+      "description": "",
+      "id": "2388a63c-9ea7-49ac-a729-06fe4e4381dc"
+    },
+    {
+      "name": "\\floor",
+      "expansion": "\\left\\lfloor #1 \\right\\rfloor",
+      "description": "",
+      "id": "72ba1330-935f-4fa4-8204-28bd8ce7a138"
+    },
+    {
+      "name": "\\ceil",
+      "expansion": "\\left\\lceil #1 \\right\\rceil",
+      "description": "",
+      "id": "7455a5b8-9aa7-409f-844d-24a6b2deb716"
+    },
+    {
+      "name": "\\im",
+      "expansion": "\\operatorname{im}",
+      "description": "תמונה של אופרטור",
+      "id": "c1d2a108-c4a2-4bcc-af30-1f487cc58cb3"
+    },
+    {
+      "name": "\\pphi",
+      "expansion": "\\varphi",
+      "description": "",
+      "id": "57223efd-d608-4dc7-aecf-62400d6a0b07"
+    },
+    {
+      "name": "\\Hom",
+      "expansion": "\\operatorname*{Hom}",
+      "description": "",
+      "id": "5fd60d61-7780-4864-96f3-c5c55adc35bf"
+    },
+    {
+      "name": "\\RP",
+      "expansion": "\\mathbb{RP}",
+      "description": "מרחב פרויקטיבי",
+      "id": "7497a522-4bfd-4525-b8c0-cd7e976c089b"
+    },
+    {
+      "name": "\\trace",
+      "expansion": "\\operatorname*{trace}",
+      "description": "עקבה",
+      "id": "9a23660e-2a21-484e-ab83-e2e82f2911c7"
+    },
+    {
+      "name": "\\rank",
+      "expansion": "\\operatorname*{rank}",
+      "description": "דרגה",
+      "id": "20f28e54-fc23-44f9-922e-891e2f399f11"
+    },
+    {
+      "name": "\\norm",
+      "expansion": "\\lVert #1\\rVert",
+      "description": "נורמה",
+      "id": "92f0c544-1e4c-4a9c-b0c4-26cd88e2db83"
+    },
+    {
+      "name": "\\supp",
+      "expansion": "\\operatorname*{supp}",
+      "description": "תומך",
+      "id": "07a34e47-4d79-46d0-8821-d0f45a5b4365"
+    },
+    {
+      "name": "\\GL",
+      "expansion": "\\operatorname*{GL}",
+      "description": "",
+      "id": "32e6055b-1f02-4e71-84fa-9107e50d0196"
+    },
+    {
+      "name": "\\Mat",
+      "expansion": "\\operatorname*{Mat}",
+      "description": "",
+      "id": "b291cb82-61b0-4bcf-8064-12804b94e672"
+    },
+    {
+      "name": "\\actson",
+      "expansion": "\\curvearrowright",
+      "description": "",
+      "id": "706fff02-7533-4270-a9df-64ab0ebf9fcf"
+    },
+    {
+      "name": "\\dblinner",
+      "expansion": "\\langle\\!\\langle #1\\rangle\\!\\rangle",
+      "description": "",
+      "id": "211fbd65-98c2-4afe-81be-b17dbb5f3ad1"
+    },
+    {
+      "name": "\\HH",
+      "expansion": "\\mathbb{H}",
+      "description": "",
+      "id": "0f2fdf13-2ed2-4b3c-b6f3-2809ed0b53f7"
+    },
+    {
+      "name": "\\vinner",
+      "expansion": "\\left\\langle{#1}\\right\\rangle",
+      "description": "מ\"פ חלופי",
+      "id": "376df8c0-9759-428c-a309-089a7c1d8d63"
+    },
+    {
+      "name": "\\one",
+      "expansion": "\\mathbf{1}",
+      "description": "",
+      "id": "9cf28d13-3d7b-44f2-9332-a2235e0e2320"
+    },
+    {
+      "name": "\\Hess",
+      "expansion": "\\operatorname*{Hess}",
+      "description": "הסיאן",
+      "id": "9ff1928e-c1ca-4c9f-9fc9-4e0e2e6350d3"
+    },
+    {
+      "name": "\\speed",
+      "expansion": "\\operatorname*{speed}",
+      "description": "",
+      "id": "32a4171f-4800-4598-8d00-04ee03ced12c"
+    },
+    {
+      "name": "\\CE",
+      "expansion": "\\mathcal{E}",
+      "description": "",
+      "id": "f089c93c-f248-4520-8cd8-43986087c0fb"
+    },
+    {
+      "name": "\\Vol",
+      "expansion": "{\\operatorname*{Vol}}",
+      "description": "",
+      "id": "9f5c4f7f-452e-4da3-8dbc-51cc5468f8c1"
+    }
+  ],
+  "workspace": {
+    "tabs": [
+      {
+        "id": "115",
+        "type": "draft",
+        "path": "/draft/115",
+        "pinned": true,
+        "recentness": 1765219713453
+      },
+      {
+        "id": "111",
+        "type": "draft",
+        "path": "/draft/111",
+        "pinned": false,
+        "recentness": 1765151573686
+      }
+    ],
+    "path": "/draft/115"
+  }
+}
