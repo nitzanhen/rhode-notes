@@ -320,6 +320,12 @@
       "expansion": "{\\operatorname*{Vol}}",
       "description": "",
       "id": "9f5c4f7f-452e-4da3-8dbc-51cc5468f8c1"
+    },
+    {
+      "name": "\\Var",
+      "expansion": "{\\operatorname*{Var}}",
+      "description": "",
+      "id": "476f42a1-ee2d-4057-9fe0-1b8ec3a300f8"
     }
   ],
   "workspace": {
